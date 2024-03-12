@@ -1,0 +1,322 @@
+.icon1{
+	width: 100px; 
+	height: 110px;
+}
+.poisk{
+	height: 90px;
+	margin-top: 10px;
+}
+.poisk:hover{
+	cursor: pointer;
+}
+p{
+	font-family: "Arial";
+}
+.name1{
+	font-family: "Comic Sans MS";
+	font-size: 21pt;
+	margin-left: -190px;
+	margin-top: 30px;
+}
+.info{
+	height: 110px;
+	width: 220px;
+}
+.info{
+	cursor: pointer;
+}
+.nav_menu{
+	display: flex;
+	margin-left: 470px;
+	margin-top: -12px; 
+}
+.nav_menu li{
+	margin-left: 20px;
+	list-style: none; 
+	font-size: 18pt;
+	font-family: "Arial";
+}
+.nav_menu li:hover{
+	cursor: pointer;
+}
+.nav_menu li:active{
+	cursor: progress;
+}
+.eat{
+	width: 390px;
+	height: 420px;
+	position: absolute;
+	z-index: 2;
+}
+.name_food{
+	font-family: "Arial Black";
+	font-size: 12pt;
+	position: absolute;
+	z-index: 3;
+	margin-left: 5px;
+	margin-top: 420px;
+}
+.price{
+	font-size: 13pt;
+	color: #a8a8a8;
+	position: absolute;
+	z-index: 4;
+	margin-left: 5px;
+	margin-top: 450px;
+}
+.cop{
+	font-size: 13pt;
+	color: #a8a8a8;
+}
+.social{
+	margin-left: -55px;
+	display: flex;
+
+}
+.social li{
+	list-style: none;
+	font-size: 13pt;
+	color: #a8a8a8;
+	margin-left: 10px;
+}
+.social li:hover{
+	color: #000002;
+	cursor: pointer;
+}
+.social li:active{
+	cursor: progress;
+}
+.name_for{
+	margin-left: 30px;
+	font-size: 30pt;
+}
+.locate{
+	margin-top: -20px;
+}
+.locate li{
+	list-style: none;
+	font-size: 16pt;
+	margin-bottom: 5px;
+}
+.text{
+	width: 1100px;
+	margin-left: 30px;
+	font-size: 16pt;
+}
+.off{
+	font-family: "Franklin Gothic Medium";
+	font-size: 26pt;
+	position: absolute;
+	z-index: 2;
+	margin-top: -180px;
+	margin-left: 117px;
+}
+.colichestvo{
+	font-size: 15pt;
+	color: #a8a8a8;
+	position: absolute;
+	z-index: 2;
+	margin-left: 115px;
+	margin-top: -80px;
+}
+.buy{
+	font-family: "Arial";
+	color: #ffffff;
+	font-size: 25pt;
+	background: #26c953;
+	width: 220px;
+	height: 60px;
+	text-align: center;
+	border-radius: 15px;
+	position: absolute;
+	z-index: 2;
+	margin-left: -248px;
+	margin-top: 105px;
+}
+.buy:hover{
+	background: #40af54;
+	cursor: pointer;
+}
+.buy:active{
+	background: #26c953;
+	cursor: progress;
+}
+.user{
+	height: 250px;
+	width: 250px;
+}
+.name_user{
+	font-size: 20pt;
+	position: absolute;
+	margin-left: 250px;
+	margin-top: -210px;
+}
+.review_a{
+	font-family: "Arial Black";
+	font-size: 20pt;
+	position: absolute;
+	margin-left: 250px;
+	margin-top: -50px;
+}
+.review_b{
+	font-size: 17pt;
+}
+.rating{
+	font-size: 17pt;
+}
+.Head{
+	justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+	width: 1870px;
+}
+.like{
+	height: 50px;
+	position: absolute;
+	z-index: 2;
+	margin-left: -62px;
+	margin-top: 492px;
+}
+.katalog{
+	width: 1870px;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.foot{
+	width: 500px;
+	margin-left: 800px;
+	margin-top: 140px;
+}
+.name2{
+	font-family: "Comic Sans MS";
+	font-size: 21pt;
+	margin-left: 95px;
+}
+.icon2{
+	width: 100px; 
+	height: 110px;
+	margin-left: 120px;
+	position: absolute;
+	margin-top: -110px;
+}
+.poloska1{
+	height: 1px;
+	width: 1600px;
+	background: #a8a8a8;
+	margin-left: 85px;
+	position: absolute;
+	margin-top: 4px;
+}
+.poloska2{
+	height: 1px;
+	width: 1000px;
+	background: #a8a8a8;
+	margin-left: 30px;
+}
+.pod{
+	height: 120px;
+	position: absolute;
+	margin-top: 200px;
+	margin-left: -110px;
+}
+.podloska{
+	height: 200px;
+}
+.offormlenie{
+	margin-top: -350px;
+	margin-left: 1320px;
+}
+.position{
+	position: absolute;
+	z-index: 2;
+	margin-left: -525px;
+	margin-top: 95px;
+	height: 80px;
+}
+.otziv{
+	width: 1820px;
+	margin-left: 25px;
+}
+/* Собственно сам слайдер */
+.slider{
+	max-width: 90%;
+	position: relative;
+ 	margin: auto;
+ 	height: 600px;
+ 	margin-bottom: 15px;
+}
+/* Картинка мастабируется по отношению к родительскому элементу */
+.slider .item img {
+	object-fit: cover;
+	width: 100%;
+	height: 600px;
+	border: none !important;
+	box-shadow: none !important;
+}
+/* Кнопки вперед и назад */
+.slider .prev, .slider .next {
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+.slider .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider .prev:hover,
+.slider .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+/* Кружочки */
+.slider-dots {
+	text-align: center;
+}
+.slider-dots_item{
+	cursor: pointer;
+	height: 12px;
+	width: 12px;
+	margin: 0 2px;
+	background-color: #ddd;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.active,
+.slider-dots_item:hover {
+	background-color: #aaa;
+}
+/* Анимация слайдов */
+.slider .item {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+	from {
+		opacity: .4
+	}
+ 	to {
+		opacity: 1
+	}
+}
+@keyframes fade {
+	from {
+		opacity: .4
+	}
+	to {
+		opacity: 1
+	}
+}
